@@ -1,6 +1,53 @@
-.mvn/
-target/
+# Compiled class file
+*.class
+
+# IDE-specific files
 .idea/
 *.iml
-*.log
+*.ipr
+*.iws
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# IntelliJ files
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# NetBeans
+nbproject/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# VSCode
+.vscode/
+
+# STS
+.springBeans
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Log files
+*.log
+hs_err_pid*
+
+# Executable files
+*.exe
+*.war
+*.jar
+
+# Temporary files
+*.tmp
